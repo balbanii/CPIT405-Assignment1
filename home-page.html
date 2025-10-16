@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bader Albani — CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="home-page.html">
+        <img id="profile-pic" class="round" src="C:\Users\bader\OneDrive\Desktop\CPIT-405\Assignmnet 1\profile-photo.jpeg" alt="Profile photo" />
+        <span class="brand-text">
+          <strong>Bader Albani</strong>
+          <small>IT Student • KAU</small>
+        </span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="home-page.html">CV</a></li>
+        <li><a href="schedule.html">Class Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main class="container">
+    
+    <aside class="left-rail">
+      <div class="card">
+        <h3>Quick Links</h3>
+        
+        <ul class="mini-nav">
+          <li><a class="fragment" href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Contact</h3>
+        <p>
+          <a href="mailto:balbani0002@stu.kau.edu.sa">balbani0002@stu.kau.edu.sa</a><br />
+          <a href="tel:+966530776444">+966 53 077 6444</a>
+        </p>
+        <div class="socials">
+          <a class="icon" href="https://x.com/unknown_176?s=21&t=tDpZMJjxZFAYMZ1ZcxlY9w" target="_blank" rel="noopener">X</a>
+          <a class="icon" href="https://www.linkedin.com/in/bader-albani-806332352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">in</a>
+        </div>
+      </div>
+    </aside>
+
+    
+    <section class="content">
+
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p class="dropcap">
+          
+          I’m Bader Albani, an Information Technology student at King Abdulaziz University with a strong focus
+          on cybersecurity and software engineering. I enjoy building practical projects (web apps, security labs)
+          and documenting everything clearly so others can reproduce my steps. I’m currently sharpening my skills
+          in networking, databases, cloud, and modern web development.
+        </p>
+      </section>
+
+      <section id="education" class="card">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Sc., Information Technology</strong> — King Abdulaziz University (Expected 2026)</li>
+          
+        </ul>
+      </section>
+
+      <section id="skills" class="card">
+        <h2>Skills</h2>
+        <ul class="cols-2">
+          <li>HTML5/CSS3</li>
+          <li>JavaScript</li>
+          <li>Linux & Networking Basics</li>
+          <li>SQL & Database Admin (Oracle/MariaDB)</li>
+          <li>Cloud Basics (Azure)</li>
+          <li>Version Control (Git)</li>
+          <li>Security Awareness Labs</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Bader Albani</p>
+  </footer>
+
+  <script>
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

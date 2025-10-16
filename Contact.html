@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bader Albani — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="home-page.html">
+        
+        <img id="profile-pic" class="round" src="C:\Users\bader\OneDrive\Desktop\CPIT-405\Assignmnet 1\profile-photo.jpeg" alt="Profile photo" />
+        <span class="brand-text">
+          <strong>Bader Albani</strong>
+          <small>IT Student • KAU</small>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="home-page.html">CV</a></li>
+        <li><a href="schedule.html">Class Schedule</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    
+    <aside class="left-rail">
+      <div class="card">
+        <h3>Contact</h3>
+        <p>
+          <a href="mailto:balbani0002@stu.kau.edu.sa">balbani0002@stu.kau.edu.sa</a><br />
+          <a href="tel:+966530776444">+966 53 077 6444</a>
+        </p>
+        <div class="socials">
+          <a class="icon" href="https://x.com/unknown_176?s=21&t=tDpZMJjxZFAYMZ1ZcxlY9w" target="_blank" rel="noopener">X</a>
+          <a class="icon" href="https://www.linkedin.com/in/bader-albani-806332352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">in</a>
+        </div>
+      </div>
+    </aside>
+
+    
+    <section class="content">
+      <section class="card">
+        <h2>Contact Form</h2>
+
+        
+        <form class="contact-form" action="https://webhook.site/8dd858d1-7703-4590-ab10-f68f1cca48e7" method="POST">
+          
+          <div class="field">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          
+          <div class="field">
+            <label for="email">Email (optional)</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" />
+          </div>
+
+          
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="10" placeholder="Write your message..."></textarea>
+          </div>
+
+          
+          <fieldset class="field radios">
+            <legend>Message Type</legend>
+            <label><input type="radio" name="message_type" value="Inquiry" checked /> Inquiry</label>
+            <label><input type="radio" name="message_type" value="Complaint" /> Complaint</label>
+          </fieldset>
+
+          
+          <button type="submit" class="button">Send</button>
+        </form>
+
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Bader Albani</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
